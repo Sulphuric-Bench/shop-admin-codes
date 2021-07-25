@@ -1,0 +1,74 @@
+table {
+  width: 200%;
+  background: #182a30;
+  color: #54defe;
+}
+table tr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+th,
+td {
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #54defe;
+}
+th:nth-child(1),
+td:nth-child(1) {
+  width: 15%;
+}
+th:nth-child(2),
+td:nth-child(2) {
+  width: 18%;
+}
+th:nth-child(3),
+td:nth-child(3) {
+  width: 25%;
+}
+th:nth-child(4),
+td:nth-child(4) {
+  width: 10%;
+}
+th:nth-child(5),
+td:nth-child(5) {
+  width: 10%;
+}
+th:nth-child(6),
+td:nth-child(6) {
+  width: 20%;
+}
+th:nth-child(7),
+td:nth-child(7) {
+  width: 25%;
+}
+
+td.nonapproved {
+  padding: 8px;
+}
+
+button {
+  color: #182a30;
+  border-radius: 5px;
+  background: #54defe;
+  padding: 10px 20px;
+  text-align: center;
+  font-weight: bold;
+  font-family: "PT Sans", sans-serif;
+  user-select: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+  margin-right: 10px;
+}
+button:hover {
+  box-shadow: 0 0 10px #54defe, 0 0 13px #54defe, 0 0 26px #54defe;
+}
+button:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+button:disabled:hover {
+  box-shadow: none;
+}
